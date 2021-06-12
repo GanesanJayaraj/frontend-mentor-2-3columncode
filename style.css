@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  color: #f2f2f2;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+body main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 420px;
+  width: 256px;
+  padding: 36px;
+}
+
+body main section h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+}
+
+body main section p {
+  margin-bottom: 36px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body main section button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 12px;
+  letter-spacing: 1.25px;
+}
+
+body main section .btn-sedan {
+  color: #e38826;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: 1px solid #e38826;
+}
+
+body main section .btn-sedan:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+body main section .btn-suvs {
+  color: #006970;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: 1px solid #006970;
+}
+
+body main section .btn-suvs:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+body main section .btn-luxury {
+  color: #004241;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  border: 1px solid #004241;
+}
+
+body main section .btn-luxury:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+body main .sedan {
+  background-color: #e38826;
+}
+
+body main .suvs {
+  background-color: #006970;
+}
+
+body main .luxury {
+  background-color: #004241;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 20px 0;
+    height: 100%;
+  }
+  body main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
